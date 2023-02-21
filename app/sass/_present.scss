@@ -1,0 +1,120 @@
+.present {
+    padding-top: 50px;
+
+    // &__pic {
+    // }
+
+    &__about {
+        background-color: $graybgrnd;
+        padding: 30px;
+    }
+
+    &__link {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #24A3FF;
+        display: inline-block;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        &::after {
+            content: '';
+            width: 5px;
+            height: 9px;
+            background-image: url(../img/icon/Vector-blue.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: inline-block;
+            padding-left: 6px;
+        }   
+
+    }
+
+    &__speech {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 37px;
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #B3B3BA;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 255px;
+        padding-bottom: 6px;
+        &::after {
+            content: 'Керуючий партнер';
+            font-size: 14px;
+            line-height: 22px;
+            color: #B3B3BA;
+            padding-left: 1px;
+            font-weight: 400;
+
+
+        }
+    }
+}
+
+
+
+
+///////////////////////////////////////////768///////////////////////////////////
+
+@media (min-width: 768px) {
+
+}
+
+
+
+////////////////////////////////////////////992///////////////////////////////////////////
+
+
+@media (min-width: 992px) {
+    .present {
+        display: flex;
+
+		// .present__pic
+
+		&__pic {
+            border-radius: 8px 0 0 0;
+		}
+
+		// .present__about
+
+		&__about {
+		}
+
+		// .present__link
+
+		&__link {
+		}
+
+		// .present__speech
+
+		&__speech {
+		}
+
+		// .present__name
+
+		&__name {
+		}
+    }
+
+}
+
+//////////////////////////////////////////1200//////////////////////////////////////////////
+
+@media (min-width: 1200px) {
+
+}

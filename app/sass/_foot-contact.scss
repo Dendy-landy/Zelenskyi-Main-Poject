@@ -1,0 +1,101 @@
+
+.foot-contact {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__logo {
+        padding-top: 21px;
+        padding-bottom: 10px;
+    }
+
+    &__tel {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;
+        color: #46466E;
+        padding-bottom: 10px;
+
+    }
+
+    &__mail {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #24A3FF;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+////////////////////////////////////////////768///////////////////////////////////////////
+
+
+@media (min-width: 768px) {
+
+    .foot-contact {
+
+        grid-area: 2/1/3/3;
+        display: flex;
+        flex-direction: row;
+        
+    
+        &__logo {
+            padding: 0;
+           
+        }
+    
+        &__tel {
+            display: inline-flex;
+            &::before {
+                content: "";
+                width: 6px;
+                height: 6px;
+                background: #B3B3BA;
+                margin: 0 10px;
+                border-radius: 50%;
+                -ms-flex-item-align: center;
+                align-self: center;
+                   display: inline-flex;
+            }
+            &::after {
+                content: "";
+                width: 6px;
+                height: 6px;
+                background: #B3B3BA;
+                margin: 0 10px;
+                border-radius: 50%;
+                -ms-flex-item-align: center;
+                align-self: center;
+                display: inline-block;
+            }
+            padding: 0;
+    
+        }
+    
+        &__mail {
+    
+            padding: 0;
+            display: inline-flex;
+            flex-wrap: wrap;
+            align-self: center;
+        }
+    }
+
+}
+
+////////////////////////////////////////////992///////////////////////////////////////////
+
+
+@media (min-width: 992px) {
+
+}
+
+//////////////////////////////////////////1200//////////////////////////////////////////////
+
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,45 @@
+.foot-inc {
+
+    // .foot-inc__company
+
+    &__company {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #B3B3BA;
+        padding-bottom: 30px;
+    }
+}
+
+////////////////////////////////////////////768///////////////////////////////////////////
+
+
+@media (min-width: 768px) {
+    
+    .foot-inc {
+        display: flex;
+        flex-direction: row;
+        border-top: 2px solid #E6E6F0;
+        padding-top: 28px;
+
+		// .foot-inc__company
+
+		&__company {
+		}
+}
+
+
+}
+
+////////////////////////////////////////////992///////////////////////////////////////////
+
+
+@media (min-width: 992px) {
+
+}
+
+//////////////////////////////////////////1200//////////////////////////////////////////////
+
+@media (min-width: 1200px) {
+
+}

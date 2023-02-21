@@ -1,0 +1,125 @@
+.switch {
+    .switch__list::-webkit-scrollbar {
+        display: none;}
+        
+
+    &__list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        overflow: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        
+        }
+
+        button {
+            white-space: nowrap;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 37px;
+            color: #B3B3BA;
+            background: transparent;
+            border-style: none;
+            }
+        button:hover {
+            background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        button.active {
+            background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+    // .switch__content
+
+    &__content {
+        p {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            padding-bottom: 30px;
+        }
+        span {
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 30px;
+            color: #FFFFFF;
+        }
+        &.active::before{
+            content: "";
+            border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+            display: flex;
+            padding-top: 30px;
+            margin-bottom: 30px;
+    }
+}
+}
+
+
+/////////////////////////////////////////////////768///////////////////////////////////
+
+@media (min-width: 768px) {
+
+            }
+
+
+
+
+//////////////////////////////////////////////////992///////////////////////////////
+
+
+@media (min-width: 992px) {
+
+    .switch {
+        display: flex;
+        padding-bottom: 70px;
+        li {
+            padding-bottom: 30px;
+            text-align: end;
+            padding-right: 60px;
+        }
+        li:last-child {
+            padding-bottom: 0px;
+        }
+        
+
+		// .switch__list
+
+		&__list {
+            display: inline-block;
+            width: 50%;
+
+		}
+
+		// .switch__content
+
+		&__content.active {
+            width: 50%;
+            border-left: 4px solid rgba(255, 255, 255, 0.3);
+            padding-left: 60px;
+		}
+
+}
+
+.switch__content.active::before {
+    content: "";
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+}
+
+            

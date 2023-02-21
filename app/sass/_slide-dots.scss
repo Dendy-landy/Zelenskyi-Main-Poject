@@ -1,0 +1,27 @@
+.slide-dots {
+    margin:30px 0 60px;
+
+    &__list {
+        display: flex;
+        list-style: none;
+        padding-left: 0px;
+        justify-content: center;
+        
+    }
+
+    li {
+        padding: 0 7px;
+
+    }
+    button {
+        background-color: rgba(36, 163, 255, .2);
+        font-size: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: none;
+    }
+    button.active{
+        background-color: #24A3FF;        
+    }
+}

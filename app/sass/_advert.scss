@@ -1,0 +1,224 @@
+.advert {
+    &__paragraph {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #323264;
+        text-align: center;
+        padding-bottom: 30px;
+
+    }
+
+    &__elem-1 {
+        height: 120px;
+        object-fit: cover;
+        background-color: #1C4280;
+        background-image: url(../img/advert-pic/Hillel-Logo-OneLine-White-Uk.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 375px;
+    }
+
+    &__elem-2 {
+        height: 120px;
+        object-fit: cover;
+        background-color: #143646;
+        background-image: url(../img/advert-pic/wannabiz.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 375px;
+    }
+
+    &__elem-3 {
+        height: 120px;
+        object-fit: cover;
+        background: linear-gradient(0deg, #F48B30, #F48B30), #F48B30;
+        background-image: url(../img/advert-pic/tapgerine.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 375px;
+
+    }
+
+    &__elem-4 {
+        height: 120px;
+        object-fit: cover;
+        background-color: #9E4DC3;
+        background-image: url(../img/advert-pic/3dlook.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 375px;
+    }
+
+    &__elem-5 {
+        height: 120px;
+        object-fit: cover;
+        background-color: #FD9339;
+        background-image: url(../img/advert-pic/orengear.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 375px;
+       
+    }
+
+    &__elem-6 {
+        height: 120px;
+        object-fit: cover;
+        background-color: #E2E2E4;
+        background-image: url(../img/advert-pic/adtellige.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 375px;
+        
+    }
+}
+
+
+
+
+///////////////////////////////////////////768///////////////////////////////////
+
+@media (min-width: 768px) {
+
+    .advert {
+        
+
+		// .advert__paragraph
+
+		&__paragraph {
+		}
+
+		// .advert__list
+
+		&__list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+		}
+
+		// .advert__elem-1
+
+		&__elem-1 {
+            min-width: 256px;
+		}
+
+		// .advert__elem-2
+
+		&__elem-2 {
+            min-width: 256px;
+		}
+
+		// .advert__elem-3
+
+		&__elem-3 {
+            min-width: 256px;
+		}
+
+		// .advert__elem-4
+
+		&__elem-4 {
+            min-width: 256px;
+		}
+
+		// .advert__elem-5
+
+		&__elem-5 {
+            min-width: 256px;
+		}
+
+		// .advert__elem-6
+
+		&__elem-6 {
+            min-width: 256px;
+		}
+
+		// .advert__elem-7
+
+		&__elem-7 {
+            height: 120px;
+            object-fit: cover;
+            background-color: #C71C36;
+            background-image: url(../img/advert-pic/clikky.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            min-width: 256px;
+		}
+
+		// .advert__elem-8
+
+		&__elem-8 {
+            height: 120px;
+            object-fit: cover;
+            background-color: #DCF3F9;
+            background-image: url(../img/advert-pic/ecolease.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            min-width: 256px;
+		}
+
+		// .advert__elem-9
+
+		&__elem-9 {
+            height: 120px;
+            object-fit: cover;
+            background-color: #EAEAEA;
+            background-image: url(../img/advert-pic/infratek.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            min-width: 256px;
+		}
+
+		// .advert__elem-10
+
+		&__elem-10 {
+            height: 120px;
+            object-fit: cover;
+            background-color: #282240;
+            background-image: url(../img/advert-pic/city-park.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            min-width: 256px;
+		}
+
+		// .advert__elem-11
+
+		&__elem-11 {
+            height: 120px;
+            object-fit: cover;
+            background-color: #1D4568;
+            background-image: url(../img/advert-pic/art-print.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            min-width: 256px;
+		}
+
+		// .advert__elem-12
+
+		&__elem-12 {
+            height: 120px;
+            object-fit: cover;
+            background-color:#000000;
+            background-image: url(../img/advert-pic/ultim-card.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            min-width: 256px;
+		}
+}
+
+}
+
+
+////////////////////////////////////////////992///////////////////////////////////////////
+
+
+@media (min-width: 992px) {
+
+}
+
+//////////////////////////////////////////1200//////////////////////////////////////////////
+
+@media (min-width: 1200px) {
+
+}

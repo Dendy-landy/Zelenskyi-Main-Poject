@@ -1,0 +1,173 @@
+.public {
+
+    background-color: $graybgrnd;
+    padding-bottom: 30px;
+
+    &__link {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #24A3FF;
+        padding:30px 0 10px;
+        display: inline-block;
+        &::after{
+            content:'';
+            width: 5px;
+            height: 10px;
+            background-image: url(../img/icon/Vector-blue.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-left: 6px;
+            display: inline-block;
+        }
+    }
+
+    // .public__title
+
+    &__title {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-bottom: 30px;
+    }
+
+    // .public__box
+
+    &__box {
+        background-color: white;
+        padding: 30px;
+        border-radius: 8px 8px 8px 8px
+    }
+
+    // .public__pic
+
+    &__pic {
+        height: 200px;
+        object-fit: cover;
+        padding-bottom: 30px;
+    }
+
+    // .public__content
+
+    &__content {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+        border-top: 4px solid #E6E6F0;
+        padding-top: 15px;
+
+    }
+
+    &__pargraph-1 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #24A3FF;
+        display: flex;
+        flex-direction: column;
+        &::after {
+                    content: 'April 22';
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    color: #B3B3BA;
+                    margin: 15px 0;
+        }
+                
+    }
+
+    &__pargraph-2 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #24A3FF;
+        display: flex;
+        flex-direction: column;
+        &::after {
+            content: 'September 29';
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #B3B3BA;
+            margin: 15px 0;
+}
+    }
+
+    &__pargraph-3 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #24A3FF;
+        display: flex;
+        flex-direction: column;
+        &::after {
+            content: 'August 19';
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #B3B3BA;
+            margin: 15px 0;
+}
+    }
+}
+
+
+
+
+////////////////////////////////////////////768///////////////////////////////////////////
+
+
+@media (min-width: 768px) {
+
+    .public {
+
+		&__link {
+		}
+
+		&__title {
+		}
+
+		&__box-list {
+            display: grid;
+            gap: 30px;
+		}
+
+		&__box {
+		}
+
+        .public__box-3 {
+            grid-area: 2/1/3/3;
+        }
+		
+    }
+
+}
+
+
+
+
+
+////////////////////////////////////////////992///////////////////////////////////////////
+
+
+@media (min-width: 992px) {
+
+}
+
+//////////////////////////////////////////1200//////////////////////////////////////////////
+
+@media (min-width: 1200px) {
+
+}

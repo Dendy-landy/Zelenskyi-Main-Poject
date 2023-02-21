@@ -1,0 +1,43 @@
+
+.services {
+    
+    // .services__link
+
+    &__link {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #24A3FF;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    // .services__paragraf
+
+    &__paragraf {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 46px;
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-bottom: 30px;
+    }
+}
+.services__link::after{
+    content:'';
+    width: 5px;
+    height: 10px;
+    background-image: url(../img/icon/Vector-blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 6px;
+    display: inline-block;
+    
+    
+}
